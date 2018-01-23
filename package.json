@@ -1,7 +1,14 @@
 {
   "name": "domain-suffix",
-  "version": "1.0.4",
-  "homepage": "https://ikrong.com",
+  "version": "1.0.7",
+  "homepage": "https://github.com/ikrong/domain-suffix",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikrong/domain-suffix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ikrong/domain-suffix/issues"
+  },
   "description": "parse domain and suffix from an give string.",
   "scripts": {
     "test": "tsc && node ./test.js",
