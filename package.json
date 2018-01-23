@@ -1,0 +1,29 @@
+{
+  "name": "domain-suffix",
+  "version": "1.0.4",
+  "homepage": "https://ikrong.com",
+  "description": "parse domain and suffix from an give string.",
+  "scripts": {
+    "test": "tsc && node ./test.js",
+    "prepublish": "tsc"
+  },
+  "keywords": [
+    "domain",
+    "suffix"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "author": "ikrong",
+  "license": "MIT",
+  "dependencies": {
+    "punycode": "^2.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  }
+}
